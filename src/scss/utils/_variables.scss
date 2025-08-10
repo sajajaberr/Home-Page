@@ -1,0 +1,21 @@
+:root {
+    // color variables
+  --primary-color: #5e2828;
+  --secondary-color: #6e3535;
+  --bt-color: #b09e9e;
+  --body-color: #f7f7f7;
+  --header-color: #fff;
+  --text-color: #333;
+
+  // font variables
+  --base-font-size: 16px;
+  --heading-font-family: 'times new roman', serif;
+  --body-font-family: 'Roboto', sans-serif;
+  --heading-font-weight: bold;
+
+  // breakpoint variables
+  --breakpoint-xsmall: 320px; // Mobile devices (extra small phones)
+  --breakpoint-small: 576px; // Mobile devices (small phones)
+  --breakpoint-medium: 768px; // Tablets
+  --breakpoint-large: 992px; // Desktops (small laptops)
+}

@@ -1,0 +1,210 @@
+#body {
+  background-color: #f7f7f7;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#main {
+  flex: 1;
+  padding-top: 50px;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #5e2828;
+  --secondary-color: #6e3535;
+  --bt-color: #b09e9e;
+  --body-color: #f7f7f7;
+  --header-color: #fff;
+  --text-color: #333;
+  --base-font-size: 16px;
+  --heading-font-family: "times new roman", serif;
+  --body-font-family: "Roboto", sans-serif;
+  --heading-font-weight: bold;
+  --breakpoint-xsmall: 320px;
+  --breakpoint-small: 576px;
+  --breakpoint-medium: 768px;
+  --breakpoint-large: 992px;
+}
+
+.bio {
+  background-image: url("../src/img/back.jpg");
+}
+
+#bio {
+  height: 150vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  display: grid;
+  align-items: center;
+  margin: 0;
+}
+
+.bio__container {
+  padding: 50px;
+  backdrop-filter: brightness(0.5);
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding-right: 0;
+}
+@media (min-width: 1024px) {
+  .bio__container {
+    flex-direction: row;
+  }
+}
+
+.container__img {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+}
+@media (min-width: 1024px) {
+  .container__img {
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-left: 100px;
+  }
+}
+
+.container__text {
+  text-align: center;
+  -webkit-text-fill-color: white;
+}
+@media (min-width: 1024px) {
+  .container__text {
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-right: 150px;
+    font-family: var(--heading-font-family);
+  }
+}
+
+.latest-projects {
+  background-color: var(--body-color);
+  margin: 0;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+@media (min-width: 1024px) {
+  .latest-projects {
+    flex-direction: row;
+  }
+}
+
+.project-card {
+  width: 80%;
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+  background-color: var(--body-color);
+  border: 2px solid #ddd;
+  /* border: 2px solid #bab4b4; */
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.project-card__img {
+  width: 50px;
+  height: 50px;
+  padding: 20px;
+}
+.project-card__h3 {
+  font-family: var(--heading-font-family);
+}
+.project-card__p {
+  font-size: 1rem;
+  -webkit-text-fill-color: #000;
+  font-family: var(--heading-font-family);
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.project-card__button {
+  -webkit-text-fill-color: #fff;
+  background-color: var(--bt-color);
+  border: 2px solid #ddd;
+  /* border: 2px solid #bab4b4; */
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 20px;
+  font-family: var(--heading-font-family);
+  font-size: 1rem;
+}
+.project-card__button:hover {
+  background-color: var(--secondary-color);
+  -webkit-text-fill-color: #fff;
+}
+
+.footer {
+  text-align: center;
+  padding: 0px 0;
+  font-size: smaller;
+}
+
+.header {
+  background-color: #fff;
+  -webkit-text-fill-color: #000;
+  position: sticky;
+  top: 0;
+  display: flex;
+  font-size: smaller;
+}
+.header__h1 {
+  padding-left: 1rem;
+  text-decoration: none !important;
+  font-weight: var(--heading-font-weight);
+  font-family: var(--heading-font-family);
+}
+.header__h1:hover {
+  -webkit-text-fill-color: var(--primary-color);
+}
+.header__nav {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding-top: 12px;
+  font-size: larger;
+  position: absolute;
+  right: 5%;
+}
+
+.nav__item {
+  text-decoration: none !important;
+  font-size: medium;
+  color: #000;
+  font-weight: var(--heading-font-weight);
+  font-family: var(--heading-font-family);
+}
+
+.nav__item:hover {
+  -webkit-text-fill-color: var(--secondary-color);
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,46 @@
+@use '../utils/utils';
+
+
+.header{
+    background-color: #fff;
+    -webkit-text-fill-color: #000;
+    position: sticky;
+    top: 0; 
+    display: flex;
+    font-size: smaller;
+
+    &__h1{
+        padding-left: 1rem;
+        text-decoration: none !important;
+        font-weight: var(--heading-font-weight);
+        font-family: var(--heading-font-family);
+    }
+
+    &__h1:hover{
+        -webkit-text-fill-color: var(--primary-color);    
+    }
+
+    &__nav{
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        padding-top: 12px;
+        font-size: larger;
+        position: absolute;
+        right: 5%;
+
+
+    }
+}
+
+.nav__item{
+    text-decoration: none !important;
+    font-size: medium;
+    color: #000;
+    font-weight: var(--heading-font-weight);
+    font-family: var(--heading-font-family);
+}
+
+.nav__item:hover{
+    -webkit-text-fill-color: var(--secondary-color);  
+}

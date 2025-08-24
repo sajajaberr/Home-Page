@@ -1,72 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../dist/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="../dist/main.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-    rel="stylesheet">
-</head>
-
-<body id="body">
-  <header class="header">
-    <h1><a class="header__h1" href="./">Latest Project</a></h1>
-    <nav>
-      <ul class="header__nav">
-        <li><a class="nav__item" href="./">Home</a></li>
-        <li><a class="nav__item" href="./">Content</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main id="main">
-
-    <section id="bio" class="bio">
-      <section class="bio__container">
-        <img class="container__img" src="./img/profile.png" alt="Saja Jaber's profile image">
-        <section class="container__text">
-          <h2>Saja Jaber's Web Development Portfolio</h2>
-          <p>Hey I'm Saja, I Graduated from Birzeit University in early 2025 with a major in Computer Science. I started my front end development journey with udacity in February.</p>
+  <body id="body">
+    <header class="header">
+      <h1><a class="header__h1" href="#">Latest Project</a></h1>
+      <nav>
+        <ul class="header__nav">
+          <li><a class="nav__item" href="#">Home</a></li>
+          <li><a class="nav__item" href="#">Content</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section id="bio" class="bio">
+        <section class="bio__container">
+          <img
+            class="container__img"
+            src="./img/profile.png"
+            alt="Saja Jaber's profile image"
+          />
+          <section class="container__text">
+            <h2>Saja Jaber's Web Development Portfolio</h2>
+            <p>
+              Hey I'm Saja, I Graduated from Birzeit University in early 2025
+              with a major in Computer Science. I started my front end
+              development journey with udacity in February.
+            </p>
+          </section>
         </section>
       </section>
-    </section>
 
-    <section id="latest-projects" class="latest-projects">
-      <article class="project-card">
-        <img class="project-card__img" src="./img/html-logo.png" alt="html logo">
-        <h3 class="project-card__h3">Html</h3>
-        <p class="project-card__p">I upgraded my basic HTML knowledge using up to date semantic 
-          standards that optimize my code for better readability, 
-          accessibility, and search engine optimization.</p>
-        <button class="project-card__button">Click Me</button>
-      </article>
-      <article class="project-card">
-        <img class="project-card__img" src="./img/css-logo.png" alt="css logo">
-        <h3 class="project-card__h3">CSS</h3>
-        <p class="project-card__p">Equipped with advanced CSS expertise, 
-          covering contemporary techniques, preprocessors, 
-          and efficient CSS syntax.</p>
-        <button class="project-card__button">Click Me</button>
-      </article>
-      <article class="project-card">
-        <img class="project-card__img" src="./img/javascript-logo.png" alt="javascript logo">
-        <h3 class="project-card__h3">JavaScript</h3>
-        <p class="project-card__p">This course delves into core JavaScript concepts 
-          and their integration with the Document Object Model (DOM).</p>
-        <button class="project-card__button">Click Me</button>
-      </article>
-    </section>
+      <section id="latest-projects" class="latest-projects">
+        <article class="project-card">
+          <img
+            class="project-card__img"
+            src="./img/html-logo.png"
+            alt="html logo"
+          />
+          <h3 class="project-card__h3">Html</h3>
+          <p class="project-card__p">
+            I upgraded my basic HTML knowledge using up to date semantic
+            standards that optimize my code for better readability,
+            accessibility, and search engine optimization.
+          </p>
+          <button class="project-card__button">Click Me</button>
+        </article>
+        <article class="project-card">
+          <img
+            class="project-card__img"
+            src="./img/css-logo.png"
+            alt="css logo"
+          />
+          <h3 class="project-card__h3">CSS</h3>
+          <p class="project-card__p">
+            Equipped with advanced CSS expertise, covering contemporary
+            techniques, preprocessors, and efficient CSS syntax.
+          </p>
+          <button class="project-card__button">Click Me</button>
+        </article>
+        <article class="project-card">
+          <img
+            class="project-card__img"
+            src="./img/javascript-logo.png"
+            alt="javascript logo"
+          />
+          <h3 class="project-card__h3">JavaScript</h3>
+          <p class="project-card__p">
+            This course delves into core JavaScript concepts and their
+            integration with the Document Object Model (DOM).
+          </p>
+          <button class="project-card__button">Click Me</button>
+        </article>
+      </section>
+    </main>
 
-  </main>
-
-  <footer class="footer">
-    <hr>
-    <p>&copy; Saja Jaber 2025</p>
-  </footer>
-
-</body>
-
+    <footer class="footer">
+      <hr />
+      <p>&copy; Saja Jaber 2025</p>
+    </footer>
+  </body>
 </html>
